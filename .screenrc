@@ -1,4 +1,5 @@
 #caption always "%w"
 term screen-256color
 hardstatus alwayslastline "%{r}%H%{-} %d-%M-%Y:%c  %-w%{+b bk}%n%f* %t%{-}%+w"
+startup_message off
 vbell off # no flashing
