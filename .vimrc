@@ -11,6 +11,7 @@ set modeline
 highlight TrailingWhite ctermbg=DarkRed
 match TrailingWhite /\s\+$/
 filetype on
+filetype indent plugin on
 syntax on
 
 set listchars=tab:»\ ,eol:¬
