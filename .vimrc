@@ -21,3 +21,10 @@ set list
 highlight Comment ctermfg=12
 "dark blue for EOL markers
 highlight NonText ctermfg=4
+
+"Highlight column 80
+if exists('+colorcolumn')
+  set colorcolumn=80
+endif
+highlight ColorColumn ctermbg=237
+
