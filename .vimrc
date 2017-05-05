@@ -8,8 +8,12 @@ set laststatus=2
 set expandtab
 set hlsearch
 set modeline
+
 highlight TrailingWhite ctermbg=DarkRed
 match TrailingWhite /\s\+$/
+
+let @z=":s/\\s\\+$//"
+
 filetype on
 filetype indent plugin on
 syntax on
