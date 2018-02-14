@@ -12,6 +12,9 @@ set modeline
 highlight TrailingWhite ctermbg=DarkRed
 match TrailingWhite /\s\+$/
 
+highlight ConsoleCode ctermfg=green 
+match ConsoleCode /\ccconsole.log/
+
 let @z=":s/\\s\\+$//"
 
 filetype on
@@ -31,4 +34,5 @@ if exists('+colorcolumn')
   set colorcolumn=80
 endif
 highlight ColorColumn ctermbg=237
+highlight folded ctermfg=183 ctermbg=239
 
