@@ -9,12 +9,14 @@ set expandtab
 set hlsearch
 set modeline
 
+"highlight trailing whitespace
 highlight TrailingWhite ctermbg=DarkRed
 match TrailingWhite /\s\+$/
 
 highlight ConsoleCode ctermfg=green 
 match ConsoleCode /\ccconsole.log/
 
+"macro deletes trailing whitespace
 let @z=":s/\\s\\+$//"
 
 filetype on
