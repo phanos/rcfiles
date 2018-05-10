@@ -35,8 +35,8 @@ uda.user.type=string
 report.completed.columns=id,uuid.short,entry,end,entry.age,depends,priority,project,tags,recur.indicator,due,description,user
 report.completed.labels=ID,UUID,Created,Completed,Age,Deps,P,Project,Tags,R,Due,Description,User
 
-report.vimdump.columns=uuid.short,end,project,tags,user,description
-report.vimdump.labels=UUID,Completed,Project,Tags,User,Description
+report.vimdump.columns=project,tags,user,description,uuid.short
+report.vimdump.labels=Project,Tags,User,Description,UUID
 report.vimdump.filter=status:completed
 report.vimdump.sort=project+
 report.vimdump.description=Completed tasks by Project
