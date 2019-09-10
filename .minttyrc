@@ -1,0 +1,5 @@
+BoldAsFont=no
+Term=xterm-256color
+Transparency=off
+OpaqueWhenFocused=yes
+CursorType=block
