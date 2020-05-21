@@ -38,5 +38,6 @@ endif
 highlight ColorColumn ctermbg=237
 highlight folded ctermfg=183 ctermbg=239
 
-
 autocmd BufNewFile,BufRead *.md set filetype=markdown
+
+nmap <F2> :grep -r --exclude-dir=".svn" <cword> *<CR>:copen<CR>
