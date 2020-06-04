@@ -38,7 +38,8 @@ endif
 highlight ColorColumn ctermbg=237
 highlight folded ctermfg=183 ctermbg=239
 
-autocmd BufNewFile,BufRead *.md set filetype=markdown
+autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
+autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
 
 " -I -r 
 nmap <F2> :grep --recursive --binary-files=without-match --exclude-dir=".svn" <cword> *<CR>:copen<CR>
