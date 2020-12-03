@@ -43,3 +43,4 @@ autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
 
 " -I -r 
 nmap <F2> :grep --recursive --binary-files=without-match --exclude-dir=".svn" <cword> *<CR>:copen<CR>
+nmap <F3> :!svn diff % <bar> colordiff<CR>
